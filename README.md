@@ -6,6 +6,6 @@ Download miniconda
 ```
 conda install mamba
 mamba install jupyter ipykernel
-mamba create -n tf -c conda-forge tensorflow-gpu numpy matplotlib
+mamba create -n tf -c conda-forge tensorflow-gpu numpy matplotlib jupyter
 python -m ipykernel install --user --name=tf
 ```
